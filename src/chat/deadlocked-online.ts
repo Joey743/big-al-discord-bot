@@ -98,7 +98,7 @@ function createEmbed(onlinePlayers: AccountStatus[]) {
   let onlineEmbed = new MessageEmbed()
     .setColor('#AA0000')
     .setTitle(`Players Online - ${onlinePlayers.length}`)
-    .setThumbnail('https://dl.uyaonline.com/assets/img/dreadzone.png')
+    .setThumbnail('https://upload.wikimedia.org/wikipedia/commons/d/d2/Blank.png')
     .setFooter('Last Updated')
     .setTimestamp(new Date())
     .setDescription(
